@@ -1,3 +1,8 @@
+
+This repository is fork from [dmslabsbr](https://github.com/dmslabsbr/esphome-somfy).
+
+Main change is that deprected FS is changed LittleFS.
+
 # esphome-somfy
 Esphome configuration for Somfy Blind
 
