@@ -14,8 +14,8 @@ using namespace esphome;
 // cmd 81 - Get all rolling code
 // cmd 85 - Write new rolling codes
 
-#define STATUS_LED_PIN 14
-#define REMOTE_TX_PIN 16
+#define STATUS_LED_PIN D4
+#define REMOTE_TX_PIN D0
 #define REMOTE_FIRST_ADDR 0x101311   // <- Change remote name and remote code here!
 #define REMOTE_COUNT  5  // <- Number of somfy blinds.
 
