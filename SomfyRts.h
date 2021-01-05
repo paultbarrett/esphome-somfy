@@ -10,7 +10,7 @@
 
 #ifdef REMOTE_TX_PIN
 #else
- #define REMOTE_TX_PIN 16
+ #define REMOTE_TX_PIN D0
 #endif
 
 class SomfyRts {
@@ -18,7 +18,7 @@ class SomfyRts {
   private:
     bool _debug;
     uint32_t _remoteId;
-    uint16_t newRollingCode = 1150;       //<-- Change it!
+    uint16_t newRollingCode = 2453;       //<-- Change it!
     uint16_t rollingCode = 0;
     unsigned char _frame[7];
     char checksum;
